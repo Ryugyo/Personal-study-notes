@@ -1,1 +1,1 @@
-# Self-study Notes
+Personal Study Notes
