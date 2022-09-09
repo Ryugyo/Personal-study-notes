@@ -2,6 +2,8 @@
 基础类型题：
 1. 单链表（singly linked list）和双链表（double linked list）如何反转？
 2. 如何删除？
+3. 如何判断是否为回文？（善用快慢指针，笔试需要注意空间复杂度）
+**（code见linkedList包，第三问见PalindromeList.java）**
 
 ## Stack and Queue
 Stack: Last in first out
