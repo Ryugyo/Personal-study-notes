@@ -23,3 +23,5 @@ Balanced Binary Tree：左树和右树的高度都不超过1。
 5. 序列化
 用#代表null，_代表node之间的分割，比如root 1有left node 2和right node 3，那么先序就是，1_2_3.
 （code见binaryTree包下SequenceTree.java）
+
+各种tree：https://www.cnblogs.com/maybe2030/p/4732377.html#_label2
