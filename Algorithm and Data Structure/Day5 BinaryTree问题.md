@@ -13,7 +13,7 @@ Complete Binary Tree：除leaf外每个节点都是left+right满，如果不满�
 Full Binary Tree：满二叉树除了leaf外每个节点都必有两个node。假设一棵树最大depth D，node总数N，那么满二叉树node数一定满足$N = 2^L - 1$。
 判断：写一个求最大深度的方法，再写一个求node数的方法，代入公式，成立则是，反之不是。
 
-4. 如何判断一棵树是否为平衡二叉树？（难点）
+4. 如何判断一棵树是否为平衡二叉树(AVL Tree)？（难点）
 Balanced Binary Tree：左树和右树的高度都不超过1。
 判断：如果整个树是balanced binary tree，那么left tree和right tree也必然是balanced binary tree，且left和right的高度差不能超过1，只有上述三个条件都成立，才true，只要有一个不成立，就false。（递归套路）
 （code见binaryTree包下IsBalancedTree.java）
