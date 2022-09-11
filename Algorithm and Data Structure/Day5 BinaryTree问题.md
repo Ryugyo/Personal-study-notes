@@ -19,3 +19,7 @@ Balanced Binary Tree：左树和右树的高度都不超过1。
 （code见binaryTree包下IsBalancedTree.java）
 
 重点：递归套路（见面试题13），有了递归套路可以攻克任何tree的DP（dynamic programming）问题。
+
+5. 序列化
+用#代表null，_代表node之间的分割，比如root 1有left node 2和right node 3，那么先序就是，1_2_3.
+（code见binaryTree包下SequenceTree.java）

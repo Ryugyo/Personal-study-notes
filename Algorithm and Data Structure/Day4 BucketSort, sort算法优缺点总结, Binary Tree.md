@@ -33,9 +33,9 @@ depth：深度，root是0，下一层是1，以此类推
 height：此node最高的高度，比如一个3层full binary tree，root的height就是2，第二层的height就是1，最后一层的leaf的height就是0.
 
 递归遍历二叉树每个节点都能回来3次，在此之上可以进阶出三种顺序的遍历：
-先序：对于所有sub tree，都是先打印root再打印leaf node和right node；
-中序：先打印左，再打印head，再打印右；
-后序：先打印右，在打印head，再打印左。
+先序（preorder）：对于所有sub tree，都是先打印root再打印leaf node和right node；
+中序（inorder）：先打印左，再打印head，再打印右；
+后序（postorder）：先打印右，在打印head，再打印左。
 
 不用递归的话，可以靠stack：
 先序：放入root，从stack弹出root，打印，再放入弹出node的right再放入left，弹出，打印，继续循环；
